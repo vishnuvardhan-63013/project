@@ -1,0 +1,187 @@
+ .content-home-img img{
+    background-color: aquamarine;
+    height: 700px;
+    width: 100%;
+   margin: 10px 0px 0px 0px;
+   display: flex;
+   align-items: center;
+} 
+.cs{
+    height: 450px;
+    width: 100%;
+    /* border-radius: 12%; */
+    border: 5px solid #1e3058;
+    background-color: aqua;
+
+    /* padding: 60px 0px 20px 300px; */
+    /* margin-left: 850px; */
+    margin-top: 10px;
+}
+.cs h2{
+    font-size: 25px;
+    color: red;
+    text-decoration: underline;
+}
+.cs h2:hover{
+      color: blue;
+}
+.cs pre{
+    font-size: 18px;
+}
+
+.navi-icon img{
+    height: 70px;
+    width: 130px;
+    margin-left: 70px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 50%;
+}
+.navi-bar{
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color:rgb(105, 204, 244);
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+.navi-items ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    /* font-size: 20px */
+}
+.navi-items a{
+    text-decoration: none;
+    margin: 20px;
+    color:rgb(38, 8, 66);
+    font-size: 22px
+}
+.videos video{
+    height: 680px;
+    width: 100%;
+    background-color:black;
+    top: 100px;
+}
+.navi-items a:hover{
+    background-color: rgb(230, 61, 9);
+    text-decoration: underline;
+}
+
+.carousel-inner2{
+    padding: 20px 0px 0px 0px;
+    top: 100px;
+    height: 780px;
+    width: 100%;
+    background-color: cadetblue;
+    
+}
+.carousel-inner2 img{
+    width: 100%;
+    height: 650px;
+    /* padding-top: -50px; */
+    position: absolute;
+    top: 0px;
+}
+
+.next-imgs{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(185, 72, 72);
+    display: flex;
+    padding-top: 6px;
+}
+.natu-img img{
+    height: 370px;
+    width: 100%;
+    margin-left: 40px;
+}
+.natu-img2 img{
+    height: 373px;
+    width: 96%;
+    margin-left: 120px;
+    padding-top: 5px;   
+}
+.next-imgs1{
+    height: 820px;
+    width: 100%;
+     background-color: rgb(133, 237, 173); 
+    display: flex;
+    margin-top: 0px;
+}
+.natu-img3 img{
+    height: 375px;
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 30px; 
+    padding: 4px;
+}
+.natu-img1 img{
+    height: 375px;
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding: 4px;
+
+}
+/* /Designing of Contact Us/ */
+#ContactUs{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+.form-shape input, .form-shape select, .form-shape textarea{
+   width: 92%;
+   padding: 0.5rem;
+}
+/* /Changing the color of placeholder/ */
+::placeholder{                  
+    color:gray;
+}
+
+
+.About{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(241, 155, 155);
+    margin-top: 0px;
+}
+.About h3{
+    font-size: 40px;
+    color: rgb(132, 49, 248);
+    padding:20px 0px 0px 40px;
+    text-shadow: 3px 3px 3px gray;
+    /* display: inline-block; */
+}
+.About pre{
+    font-size: 22px;
+    padding:10px 0px 0px 40px;
+    color:rgb(16, 16, 15);
+}
+.copyright{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.copyright p{
+    color: white;
+}
+.about-icons img{
+    height: 37px;
+    width: 37px;
+    /* border-radius: 50%; */
+    margin:16px 0px 0px 40px;
+    /* position:relative; */
+}
